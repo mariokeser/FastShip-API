@@ -1,0 +1,32 @@
+# Virtual environment
+env/
+
+# Environment / secrets
+.env
+!.env.example
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+**/.pytest_cache/
+
+# Docker volumes (runtime data)
+postgres_data/
+redis_data/
+
+# Logs
+*.log
+
+# Redis dump fajlovi
+**/*.rdb
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
